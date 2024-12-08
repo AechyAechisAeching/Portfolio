@@ -75,9 +75,7 @@ section{
     align-items: center;
     gap: 8rem;
     /* Background color */
-    background-image: url("SpaceBackground.jpg");
-    background-repeat: repeat-x;
-    flex-wrap: wrap
+    /* background-image: url("SpaceBackground.jpg"); */
 }  
 .home .home-content h1{
     font-size: 6rem;
@@ -195,6 +193,7 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
+    
 }.grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -207,6 +206,7 @@ span{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
 }
 
 .card-img {
@@ -230,8 +230,8 @@ span{
     border-radius: 1rem;
     font-size: 2.6rem;
     color: #000000;
-    letter-spacing: 0.3rem;
     font-weight: 1000;
+    letter-spacing: -0.175rem;
     border: 3px solid #000000;
     transition: 0.3s ease;
     cursor: pointer;
