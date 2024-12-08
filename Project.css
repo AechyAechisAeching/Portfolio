@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* * {
+  border: 2px solid red;
+} */
+h1 {
+font-size: 25px;
+display: flex;
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+}
+.btn {
+  display: inline-block;
+  position: sticky;
+  margin-bottom: 635px;
+  margin-right: 150px;
+  padding: 1rem 2.8rem;
+  background-color: black;
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  transform: scale3d(1.03);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 25px #ffffff;
+}
+
+  main {
+    background: #000;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .glass {
+    background: white;
+    min-height: 100vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.886), rgba(255, 255, 255, 0.196));
+    border-radius: 1rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: grid;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: 5%;
+  border: 10px solid black;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 3px 6px;
+  position: flex;
+  bottom: 8%;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
