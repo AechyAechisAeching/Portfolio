@@ -75,7 +75,7 @@ section{
     align-items: center;
     gap: 8rem;
     /* Background color */
-    /* background-image: url("Backgroundportfolio.png"); */
+    background-image: url("SpaceBackground.jpg");
     background-repeat: repeat-x;
     flex-wrap: wrap
 }  
